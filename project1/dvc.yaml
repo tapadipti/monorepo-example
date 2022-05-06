@@ -1,0 +1,8 @@
+stages:
+  featurize:
+    params:
+    - featurize.ngrams
+  train:
+    params:
+    - train.batch_size
+    - train.hidden_units
